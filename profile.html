@@ -2,16 +2,103 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Profile page CA CSS Frameworks</title>
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-black">
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-4 d-flex">
+            <a class="navbar-brand" href="index.html">
+              <img src="/project/images/mv-logo.png" alt="Logo Moving Virtually" style="width:40px;">  
+            </a>
+         </div>
+         <form class="col-lg-8 d-flex">
+          <input type="Search" placeholder="Search">
+            <button type="submit" class="btn btn-light"><span class="fa fa-search"></span></button>
+             </div>
+          </form>
+          <a href="profile.html">My profile</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+      <div class="container-sm">
+        <div class="row">
+          <div class="col">
+            <img src="project/images/background_1.jpg" class="img-fluid">
+         </div>
+        </div>
+        <div class="container-sm">
+         <div class="card">
+         <img src="/project/images/profile-4.jpg" class="rounded-circle" style="width: 15%"   alt="...">
+         <ul class="">
+           <li>Name: Marilyn Moe</li>
+           <li>Age: 35</li>
+           <li>From: Boston, USA</li>
+           <li>Occupation: Doctor</li>
+           <li>Exercise goals: Be the best version of me</li>
+         </ul>
+        </div>
+        <div class="row">
+          <div class="col-3 bg-light m-2">
+            <p>Marilyn has 355 friends</p>
+         </div>
+         <div class="col-3 bg-light m-2">
+          <p> <p>Marilyn has 155 posts</p></p>
+        </div>
+        <div class="col-3 bg-light m-2">
+          <p>Create more</p>
+        </div>
+        </div>
+       </div>
+     <div class="container-sm">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="project/images/wall_11.jpg" class="img-fluid">
+            <p>01 Jan-23. I started the new year with a brand  new workout plan , and I 
+              can’t wait to get started!! </p>
+          </div>
+          <div class="col-md-3">
+            <img src="project/images/wall_13.jpg" class="img-fluid">
+            <p>15 Dec-22. Christmas is coming up soon, but I am not giving up my super-
+              healthy and tasteful start of the day. </p>
+          </div>
+          <div class="col-md-3">
+            <img src="project/images/wall_7.jpg" class="img-fluid">
+            <p>01 dec-22. The amazing photographer @Michael-Norman has taken some
+              Amazing photos of my during my last workout. If you want to see more photos
+              From this shoot check out his website. </p>
+          </div class="col-md-3">
+          <img src="project/images/wall-15.jpg" class="img-fluid">
+          <p>15 nov-22 They say all things tasty are bad for you but I beg to differ. I 
+            Can promise you this breakfast was tasty.. </p>
+        </div>
+
+        </div>
+    </main>
+    <footer>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/project/images/mv-logo.png" alt="Logo Moving Virtually" style="width:40px;">  
+          </a>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
