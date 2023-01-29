@@ -33,7 +33,7 @@
             </li>
             <li class="nav-item mx-auto">
               <a class="nav-link"><button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
-                  data-bs-target="#myModal">
+                  data-bs-target=".myModal">
                   Create
                 </button></a>
             </li>
@@ -56,13 +56,13 @@
             </a>
           </div>
           <div class="col-md-4 d-flex px-2 py-2 mx-4">
-            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#myModal">
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target=".myModal">
               Create
             </button>
           </div>
         </div>
-        <div class="modal fade" id="myModal">
-          <div class="modal-dialog modal-lg">
+        <div class="modal fade myModal">
+          <div class="modal-dialog modal-fullscreen-sm-down">
             <div class="modal-content">
               <div class="modal-header">
                 <h4 class="modal-title">Create your content</h4>
@@ -96,8 +96,8 @@
         <button type="submit" class="btn searchbox-btn btn-light"><span class="fa fa-search"></span></button>
       </form>
       <div class="col-md-4 d-flex px-2 py-2 mx-4">
-        <button type="button" class="btn btn-outline-light"><a class="text-decoration-none" href="index.html">
-            Home
+        <button type="button" class="btn btn-outline-light"><a class="text-decoration-none" href="profile.html">
+            Profile
         </button></a>
       </div>
       </div>
@@ -105,76 +105,92 @@
     </nav>
   </header>
   <main>
-    <div class="container-fluid">
+    <div class="container-sm">
       <div class="row">
-        <div class="col-12">
-          <img src="project/images/background_3.jpg" class="img-fluid">
+        <div class="column mx-auto p-5">
+          <p class="h4">Reach your fitness goal in our
+            community <a href="log-in.html" class="link-*">
+              Sign up today!
+            </a></p>
         </div>
       </div>
-      </header>
-      <main>
-        <div class="container-sm">
-          <div class="row">
-            <div class="column mx-auto p-5">
-              <p class="h4">Reach your fitness goal in our
-                community <a href="log-in.html" class="link-*">
-                  Sign up today!
-                </a></p>
-            </div>
-          </div>
+    </div>
+    <div class="container-sm p-4">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="project/images/wall_1.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_1.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
         </div>
-        <div class="container-sm p-4">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="project/images/wall_1.jpg" class="mx-auto d-block" style="width:100%">
-              <img src="project/images/profile-1.jpg" class="d-block" style="width:10%">
-              <h6>Miss Sixty</h6>
-              <p>My new years resolution is yoga. </p>
-            </div>
-            <div class="col-md-4">
-              <img src="project/images/wall_2.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-            <div class="col-md-4">
-              <img src="project/images/wall_6.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-          </div>
+        <div class="col-md-4">
+          <img src="project/images/wall_2.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_2.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
         </div>
-        <div class="container-sm p-4">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="project/images/wall_5.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-            <div class="col-md-4">
-              <img src="project/images/wall_7.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-            <div class="col-md-4">
-              <img src="project/images/wall_9.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-          </div>
+        <div class="col-md-4">
+          <img src="project/images/wall_6.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_3.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
         </div>
-        <div class="container-sm p-4">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="project/images/wall_11.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-            <div class="col-md-4">
-              <img src="project/images/wall_10.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-            <div class="col-md-4">
-              <img src="project/images/wall_8.jpg" class="mx-auto d-block" style="width:100%">
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="container-sm p-4">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="project/images/wall_5.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_4.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
         </div>
-      </main>
-      <footer>
-        <nav class="navbar navbar-expand-sm bg-light fixed-bottom">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="/project/images/mv-logo.png" alt="Logo Moving Virtually" style="width:40px;">
-            </a>
-          </div>
-        </nav>
-      </footer>
+        <div class="col-md-4">
+          <img src="project/images/wall_7.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_5.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
+        </div>
+        <div class="col-md-4">
+          <img src="project/images/wall_9.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_6.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-sm p-4">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="project/images/wall_11.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_7.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
+        </div>
+        <div class="col-md-4">
+          <img src="project/images/wall_10.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_8.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
+        </div>
+        <div class="col-md-4">
+          <img src="project/images/wall_8.jpg" class="mx-auto d-block" style="width:100%">
+          <img src="project/images/profile_6.jpg" class="d-block rounded-circle" style="width:10%">
+          <h6>Miss Sixty</h6>
+          <p>My new years resolution is yoga. </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <nav class="navbar navbar-expand-sm bg-light fixed-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/project/images/mv-logo.png" alt="Logo Moving Virtually" style="width:40px;">
+        </a>
+      </div>
+    </nav>
+  </footer>
 </body>
 
 </html>
