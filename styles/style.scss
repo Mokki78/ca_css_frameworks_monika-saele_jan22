@@ -1,0 +1,39 @@
+
+
+$primaryColor : #CCBEB1;
+$secondaryColor : darkgrey;
+$baseColor : black;
+
+
+$primaryBtn : #C1D5DE;
+$secondaryBtn :#5A5151;
+
+$link-color:    #CCBEB1;
+$link-hover-color:  #C1D5DE;
+
+@mixin flexRules {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  
+}
+
+body {
+    background-color:#F2F1ED;
+
+}
+
+
+header {
+    @include flexRules();
+
+    background-color:$primaryColor ;
+    color: $baseColor;
+    button{
+        background-color: $primaryBtn;
+        &:hover{
+            background-color: $link-hover-color;
+        }
+    }
+}
+
