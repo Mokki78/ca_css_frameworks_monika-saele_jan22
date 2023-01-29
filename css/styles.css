@@ -74,3 +74,14 @@ input[type="password"] {
 .loginbox a:hover {
   color: #ccbeb1;
 }
+
+.searchbox {
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background: #fff;
+  color: grey;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
