@@ -14,7 +14,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #CCBEB1;
-  color: #FFFFFF;
+  color: black;
 }
 
 header button {
