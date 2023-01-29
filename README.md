@@ -36,7 +36,5 @@ The site is made with HTML, CSS, Javascript, CSS Bootstrap and Sass.</p>
 
 <p>There is no licenses required for this project</p>
 
-<h3>Acknowlegdments</h3>
 
-For this project I have had the pleasure of getting tips and inspiration from these websites
 
