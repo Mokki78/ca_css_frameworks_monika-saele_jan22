@@ -85,3 +85,13 @@ input[type="password"] {
   border-radius: 20px;
   border: 2px solid white;
 }
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f2f1ed;
+  text-decoration: none;
+}
