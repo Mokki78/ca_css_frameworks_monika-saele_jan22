@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Walli is the best online workout community. Share, compare and learn in our community to become the best version of you!" />
+    <title>Profile page CA CSS Frameworks</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top navbar-light" style="background-color: #CCBEB1;">
+            <div class="container-fluid">
+                <div class="col-md-3 d-flex">
+                    <a class="navbar-brand" href="index_2.html">
+                        <img src="/project/images/mv-logo.png" alt="Logo Moving Virtually" style="width:40px;">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item col-4 p-3 my-2">
+                            <a class="navbar-link" href="index_2.html">Wall</a>
+                        </li>
+                        <li class="nav-item col-4 p-3 my-2">
+                            <a class="navbar-link" href="login_2.html">Login</a>
+                        </li>
+                        <li class="nav-item col-4 p-3 my-2">
+                            <a class="navbar-link active" aria-current="page" href="profile_2.html">Profile</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-dark mx-3" data-bs-toggle="modal"
+                        data-bs-target="#myModal">
+                        Create
+                    </button>
+
+                    <form class="col-4 navbar-link d-none d-md-flex p-2">
+                        <input class="form-control" type="Search" placeholder="Search" aria-label="Search">
+                        <button type="submit" class="btn btn-light"><span class="fa fa-search"></span></button>
+                    </form>
+
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+
+        <div class="container-sm">
+            <div class="card bg-light text-bg-light d-flex">
+                <img src="/project/images/profile_4.jpg" class="rounded-circle mx-auto mt-5 pt-5" style="width: 30%"
+                    alt="...">
+                <ul class="card-body p-4">
+                    <li>Name: Marilyn Moe</li>
+                    <li>Age: 35</li>
+                    <li>From: Boston, USA</li>
+                    <li>Occupation: Doctor</li>
+                    <li>Exercise goals: Be the best version of me</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Create your content</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-2">
+                                <label for="formFile" class="form-label">Upload your image</label>
+                                <input class="form-control" type="file" id="formFile">
+                            </div>
+                            <label for="comment">What do you want to tell the community:</label>
+                            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                            <div clas="box bg-light 200px">
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Submit
+                                        content</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="background-image">
+                            <div class="opacity-25%">
+                                <img src="project/images/background_2.jpg" class="mx-auto d-block" style="width:100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-md-8 border border-dark bg-light mx-auto pb-5 mb-5">
+                    <img src="project/images/wall_1.jpg" class="mx-auto d-block mt-2" style="width:100%">
+                    <p>15 Dec-22. Christmas is coming up soon, but I am not giving up my super-
+                        healthy and tasteful start of the day. </p>
+                </div>
+                <div class="col-md-8 border border-dark bg-light mx-auto pb-5 mb-5">
+                    <img src="project/images/wall_2.jpg" class="mx-auto d-block mt-2" style="width:100%">
+                    <p>15 Dec-22. Christmas is coming up soon, but I am not giving up my super-
+                        healthy and tasteful start of the day. </p>
+                </div>
+                <div class="col-md-8 border border-dark bg-light mx-auto pb-5 mb-5">
+                    <img src="project/images/wall_3.jpg" class="mx-auto d-block mt-2" style="width:100%">
+                    <p>15 Dec-22. Christmas is coming up soon, but I am not giving up my super-
+                        healthy and tasteful start of the day. </p>
+                </div>
+                <div class="col-md-8 border border-dark bg-light mx-auto pb-5 mb-5">
+                    <img src="project/images/wall_8.jpg" class="mx-auto d-block mt-2" style="width:100%">
+                    <p>15 nov-22 They say all things tasty are bad for you but I beg to differ. I
+                        Can promise you this breakfast was tasty.. </p>
+                </div>
+                <div class="col-md-8 border border-dark bg-light mx-auto pb-5 mb-5">
+                    <img src="project/images/wall_10.jpg" class="mx-auto d-block mt-2" style="width:100%">
+                    <p>15 nov-22 They say all things tasty are bad for you but I beg to differ. I
+                        Can promise you this breakfast was tasty.. </p>
+                </div>
+                <div class="col-md-8 border border-dark bg-light mx-auto pb-5 mb-5">
+                    <img src="project/images/wall_7.jpg" class="mx-auto d-block mt-2" style="width:100%">
+                    <p>15 Dec-22. Christmas is coming up soon, but I am not giving up my super-
+                        healthy and tasteful start of the day. </p>
+                </div>
+                <div class="col-md-8 border border-dark bg-light mx-auto pb-5 mb-5">
+                    <img src="project/images/wall_12.jpg" class="mx-auto d-block mt-2" style="width:100%">
+                    <p>My new years resolution is yoga. </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-bottom" style="background-color: #CCBEB1;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index_2.html">
+                    <img src="/project/images/mv-logo.png" alt="Logo Moving Virtually" style="width:40px;">
+                </a>
+                <form class="col-lg-4 d-flex navbar-link mx-auto d-md-none">
+                    <input class="form-control me-2 mx-auto" type="Search" placeholder="Search" aria-label="Search">
+                    <button type="submit" class="btn btn-light"><span class="fa fa-search"></span></button>
+                </form>
+                <div class="text-light mx-auto">
+                    <p>Moving virtually @2023</p>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
